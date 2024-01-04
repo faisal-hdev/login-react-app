@@ -13,7 +13,7 @@ const Login = () => {
           <div className="flex flex-col py-4">
             <label className="text-xl">User Name</label>
             <input
-              className="border p-4"
+              className="border p-3"
               type="text"
               placeholder="Enter Your Name"
               required
@@ -22,14 +22,14 @@ const Login = () => {
           <div className="flex flex-col py-4">
             <label className="text-xl">Password</label>
             <input
-              className="border p-4"
+              className="border p-3"
               type="password"
               placeholder="Enter Your Password"
               required
             />
           </div>
-          <button className="border font-bold my-5 w-full rounded-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xl">
-            Sign In
+          <button className="border my-5 w-full rounded-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white text-xl">
+            Sign in
           </button>
           <div className="flex justify-between mb-4">
             <p className="flex items-center">
