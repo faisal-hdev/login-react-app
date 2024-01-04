@@ -11,7 +11,7 @@ const Login = () => {
         <form className="max-w-[400px] w-full mx-auto bg-white p-6">
           <h2 className="text-4xl font-bold text-center p-2">Brand.</h2>
           <div className="flex flex-col py-4">
-            <label className="text-xl">User Name</label>
+            <label className="text-lg">User Name</label>
             <input
               className="border p-3"
               type="text"
@@ -20,7 +20,7 @@ const Login = () => {
             />
           </div>
           <div className="flex flex-col py-4">
-            <label className="text-xl">Password</label>
+            <label className="text-lg">Password</label>
             <input
               className="border p-3"
               type="password"
